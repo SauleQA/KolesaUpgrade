@@ -8,7 +8,7 @@ actor: AcceptanceTester
 modules:
     enabled:
         - WebDriver:
-            url: https://habr.com/ru/
+            url: https://prostochizh.github.io/form/
             host: localhost
             port: 9515
             browser: chrome
