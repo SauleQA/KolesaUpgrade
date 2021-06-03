@@ -12,8 +12,8 @@ class SearchPage
     /**
      * Display title
      */
-
      public static $displayTitle = '.display-title';
+     
     /**
      * Grid display view when it is selected   
      */

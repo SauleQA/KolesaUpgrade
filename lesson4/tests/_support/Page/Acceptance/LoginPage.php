@@ -82,7 +82,7 @@ class LoginPage
     }
 
     /**
-     * Нажать на кнопку Login
+     * Закрыть блок с ошибкой
      */
     public function closeErrorBlock()
     {

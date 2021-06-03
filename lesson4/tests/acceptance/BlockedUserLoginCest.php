@@ -6,12 +6,10 @@ use Page\Acceptance\LoginPage;
  */
 class BlockedUserLoginCest
 {
-    public const USERNAME = 'locked_out_user';
-
     /**
      *  Проверка закрытия блока с ошибкой при неудачной авторизации
      */ 
-    public function checkSuccessLogin(AcceptanceTester $I)
+    public function closeErrorBlock(AcceptanceTester $I)
     {
         $loginPage = new LoginPage($I);
         

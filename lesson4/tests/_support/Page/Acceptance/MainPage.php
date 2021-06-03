@@ -39,10 +39,6 @@ class MainPage
         return new SearchPage($this->acceptanceTester);
     }
 
-
-
-
-
     /**
      * @var \AcceptanceTester;
      */
