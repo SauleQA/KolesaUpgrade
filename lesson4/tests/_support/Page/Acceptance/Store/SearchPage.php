@@ -1,5 +1,5 @@
 <?php
-namespace Page\Acceptance;
+namespace Page\Acceptance\Store;
 
 class SearchPage
 {
@@ -84,10 +84,4 @@ class SearchPage
      * @var \AcceptanceTester;
      */
     protected $acceptanceTester;
-
-    public function __construct(\AcceptanceTester $I)
-    {
-        $this->acceptanceTester = $I;
-    }
-
 }

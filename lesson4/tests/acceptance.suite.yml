@@ -14,4 +14,5 @@ modules:
             browser: chrome
             window_size: 1440x900
         - \Helper\Acceptance
+        - Asserts
 step_decorators: ~        

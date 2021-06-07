@@ -1,7 +1,7 @@
 <?php
 
-use Page\Acceptance\MainPage;
-use Page\Acceptance\SearchPage;
+use Page\Acceptance\Store\MainPage;
+use Page\Acceptance\Store\SearchPage;
 
 /**
  * Класс для проверки расположения элементов продукта Summer Dress
