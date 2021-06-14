@@ -10,6 +10,9 @@ modules:
     enabled:
         # add a framework module here
         - PhpBrowser:
-            url: http://automationpractice.com/index.php
+            url: http://api.izze.xyz/test/
         - \Helper\Functional
+        - REST:
+           depends: PhpBrowser
+           url: 'http://api.izze.xyz/test/'
     step_decorators: ~        
