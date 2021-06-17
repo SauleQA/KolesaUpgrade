@@ -9,16 +9,7 @@ actor: FunctionalTester
 modules:
     enabled:
         - PhpBrowser:
-            url: 'http://izze.xyz'
-        - REST:
-            url: 'http://api.izze.xyz/test'
-            depends: PhpBrowser
-            headers:
-               Content-Type: application/json
-        - MongoDb:
-            dsn: 'mongodb://46.101.235.30/upgradeApp'
-            populate: false
-            cleanup: false
+            url: http://automationpractice.com/index.php
         - Asserts
         - \Helper\Functional
     step_decorators: ~        
