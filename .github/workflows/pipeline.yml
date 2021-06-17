@@ -18,6 +18,6 @@ jobs:
         run: php vendor/bin/codecept run --steps -vvv --xml
       - name: Publish Test Report
         if: always()
-        uses: mikepenz/action-junit-report@v2.4.2
+        uses: mikepenz/action-junit-report@v2
         with:
-          report_paths: 'tests/_output\report.xml'
+          report_paths: 'tests/_output/report.xml'
