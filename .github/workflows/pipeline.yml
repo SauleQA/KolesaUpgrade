@@ -6,7 +6,7 @@ jobs:
     steps: 
       - uses: actions/checkout@v2
       - uses: nanasess/setup-php@master
-          with:
+        with:
           php-version: '7.4'
       - name: Install dependencies
         run: composer install
