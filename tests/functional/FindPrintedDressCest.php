@@ -14,7 +14,7 @@ class FindPrintedDressCest
         $productsXPath = '//*[@class="product-container"]';
 
         $I->amOnPage('');
-        $I->waitForElementVisible('#search_query_top');
+        $I->seeElement('#search_query_top');
         $I->fillField('#search_query_top', 'Printed dress');
         $I->click('#searchbox > button');
         $I->seeNumberOfElements('.product-container', 4);
