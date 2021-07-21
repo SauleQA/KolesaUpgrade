@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="acceptance" tests="1" assertions="20" errors="0" failures="0" skipped="0" time="3.815922">
+    <testcase file="D:\Saule\Courses\Kolesa\tests\acceptance\KilledBySnapCest.php" name="killBySpanCest" class="KilledBySnapCest" feature="kill by span cest" assertions="20" time="3.815922"/>
+  </testsuite>
+  <testsuite name="functional" tests="1" assertions="2" errors="0" failures="0" skipped="0" time="20.655192">
+    <testcase file="D:\Saule\Courses\Kolesa\tests\functional\FindPrintedDressCest.php" name="findPrintedDress" class="FindPrintedDressCest" feature="find printed dress" assertions="2" time="20.655192"/>
+  </testsuite>
+</testsuites>
